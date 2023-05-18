@@ -6,7 +6,7 @@ When `CAPSLOCK` is enabled remap `arrow keys` and `space` to **media keys**.
 * Left arrow key  &rarr; Play previous
 * Up arrow key    &rarr; Volume up
 * Down arrow key  &rarr; Volume down
-* Space           &rarr; Play/Pause
+* CTRL **+** Space           &rarr; Play/Pause
 
 `CAPSLOCK` needs to be **ON** for the hotkeys to take effect.
 

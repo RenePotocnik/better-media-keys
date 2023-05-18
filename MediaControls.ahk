@@ -33,7 +33,7 @@ Down:: {
     }
 }
 
-Space:: {
+^Space:: {
     if GetKeyState("Capslock", "T") {
         Send "{Media_Play_Pause}"
     }
