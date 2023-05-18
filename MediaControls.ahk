@@ -36,3 +36,15 @@ Down:: {
 ^Space:: {
     send_if_pressed("{Media_Play_Pause}", "{^Space}")
 }
+
+CapsLock:: {
+    TrayTip
+    if GetKeyState("CapsLock", "T") != 1 {
+        TrayTip "Arrow Media Keys Activated", "", "Mute"
+        SetTimer TrayTip, -2000
+    } else {
+        TrayTip "Arrow Media Keys Deactivated", "", "Mute"
+        SetTimer TrayTip, -2000
+    }
+    SetCapsLockState !GetKeyState("CapsLock", "T")
+}
