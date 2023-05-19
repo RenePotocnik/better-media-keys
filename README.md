@@ -1,6 +1,7 @@
 # Choice of scripts
 
 There are 2 `.ahk` scripts available:
+
 * `MediaArrowKeys.ahk`  - Remaps **Arrow Keys**
 * `MediaNumpadKeys.ahk` - Remaps **NumPad Keys**
 
@@ -9,13 +10,6 @@ Choose which scripts to run based on what is available on your keyboard and/or w
 ## Media Arrow Keys
 
 When `CAPSLOCK` is enabled remap `ARROW KEYS` and `CTRL + SPACE` to **media keys**.
-
-
-* Right arrow key &rarr; Play next
-* Left arrow key &rarr; Play previous
-* Up arrow key &rarr; Volume up
-* Down arrow key &rarr; Volume down
-* CTRL **+** Space &rarr; Play/Pause
 
 | Number       | Command       |
 |--------------|---------------|
