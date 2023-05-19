@@ -9,7 +9,7 @@ Choose which scripts to run based on what is available on your keyboard and/or w
 
 ## Media Arrow Keys
 
-When `CAPSLOCK` is enabled remap `ARROW KEYS` and `CTRL + SPACE` to **media keys**.
+When `CAPSLOCK` is enabled remap `ARROW KEYS` and `CTRL + SPACE` to **media control keys**.
 
 | Number       | Command       |
 |--------------|---------------|
