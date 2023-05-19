@@ -9,7 +9,7 @@
         CTRL + Space    -> Play/Pause
 */
 
-send_if_pressed(send_button, pressed_button) {
+send_if_toggled(send_button, pressed_button) {
     if GetKeyState("Capslock", "T") {
             Send send_button
         } else {
@@ -18,23 +18,23 @@ send_if_pressed(send_button, pressed_button) {
 }
 
 Right:: {
-    send_if_pressed("{Media_Next}", "{Right}")
+    send_if_toggled("{Media_Next}", "{Right}")
 }
 
 Left:: {
-    send_if_pressed("{Media_Prev}", "{Left}")
+    send_if_toggled("{Media_Prev}", "{Left}")
 }
 
 Up:: {
-    send_if_pressed("{Volume_Up}", "{Up}")
+    send_if_toggled("{Volume_Up}", "{Up}")
 }
 
 Down:: {
-    send_if_pressed("{Volume_Down}", "{Down}")
+    send_if_toggled("{Volume_Down}", "{Down}")
 }
 
 ^Space:: {
-    send_if_pressed("{Media_Play_Pause}", "{^Space}")
+    send_if_toggled("{Media_Play_Pause}", "{^Space}")
 }
 
 CapsLock:: {
