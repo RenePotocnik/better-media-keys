@@ -1,3 +1,5 @@
+#Requires AutoHotkey v2.0
+
 /*
     When `NUMLOCK` is toggled OFF remap numpad keys to media keys:
         6 -> Play next
