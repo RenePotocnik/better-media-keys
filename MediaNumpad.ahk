@@ -39,14 +39,13 @@ NumpadHome:: {
     Send "{Launch_Media}"
 }
 
-NumLock:: {
+~Numlock:: {
     TrayTip
-    if GetKeyState("NumLock", "T") != 1 {
-        TrayTip "Media Numpad Activated", "", "Mute"
-        SetTimer TrayTip, -2000
-    } else {
+    if (GetKeyState("NumLock", "T")) {
         TrayTip "Media Numpad Deactivated", "", "Mute"
         SetTimer TrayTip, -2000
+    } else {
+        TrayTip "Media Numpad Activated", "", "Mute"
+        SetTimer TrayTip, -2000
     }
-    SetNumLockState !GetKeyState("NumLock", "T")
 }
